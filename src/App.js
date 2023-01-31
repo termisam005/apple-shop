@@ -30,7 +30,7 @@ function App() {
 
 
       <Routes>
-
+        
         <Route path="/" element={<div>
           <div className='main-bg'></div>
           <Container>
@@ -61,7 +61,6 @@ function App() {
         } />
 
         <Route path="*" element={<div>없는 페이지요</div>} />
-
         <Route path="/cart" element={<Cart />} />
 
       </Routes>

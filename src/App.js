@@ -32,7 +32,7 @@ function App() {
       <Routes>
 
         <Route path="/" element={<div>
-          <div className="main-bg master"></div>
+          <div className="main-bg master develop"></div>
           <Container>
             <Row>
               {
